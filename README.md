@@ -1,11 +1,11 @@
-About r-shinymatrix
-===================
+About r-shinymatrix-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shinymatrix-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=shinyMatrix
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shinymatrix-feedstock/blob/main/LICENSE.txt)
 
 Summary: Implements a custom matrix input field.
 
