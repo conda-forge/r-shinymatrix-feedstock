@@ -1,4 +1,4 @@
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/shinyMatrix_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/shinyMatrix/shinyMatrix_{{ version }}.tar.gz
-  sha256: fc9dd16128b783cb2e09e24703fe76dcf0f3d7f76da07c04573b11d7038c9536
+  sha256: f66b990fa2804c1b528e5345128949ebeb7af3f743a81955e86db60395f187ec
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
